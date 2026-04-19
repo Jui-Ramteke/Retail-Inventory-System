@@ -21,7 +21,6 @@ env/
 data/*.csv
 data/*.xlsx
 *.csv
-outputs/
 models/*.pkl
 
 # 4. Jupyter Notebooks
