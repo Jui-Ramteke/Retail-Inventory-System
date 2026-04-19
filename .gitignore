@@ -1,0 +1,41 @@
+# ==========================================
+# Retail Analytics OS - .gitignore
+# ==========================================
+
+# 1. Python Environment & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 2. Virtual Environments
+# DO NOT upload these! They are huge and OS-specific.
+venv/
+env/
+.env/
+.venv/
+
+# 3. Datasets & Outputs
+# We ignore the data folder so we don't upload large CSVs.
+# Users should generate the data locally using src/data_loader.py
+data/*.csv
+data/*.xlsx
+*.csv
+outputs/
+models/*.pkl
+
+# 4. Jupyter Notebooks
+.ipynb_checkpoints/
+
+# 5. IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 6. OS Specific Files
+.DS_Store
+Thumbs.db
+
+# 7. Streamlit Specific
+.streamlit/
