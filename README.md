@@ -39,7 +39,7 @@ Companies like **Amazon, Walmart, D-Mart, and Reliance Retail** rely heavily on 
 
 ### 3. Inventory Health & Cost Analysis
 *A live simulation gauge calculating current stock health, automated strategic action plans, and simulated holding vs. stockout costs.*
-![Inventory Optimization](outputs/scr_3.jpg)
+![Inventory Optimization](outputs/scr_3.png)
 
 ### 4. Sample Data Ingestion
 *System seamlessly ingests daily SKU-level transaction data, capable of handling custom user CSV uploads with strict validation.*
